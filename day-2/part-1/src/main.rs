@@ -8,9 +8,7 @@ const GREEN: i64 = 13;
 
 fn check_valid_game(game: &Vec<Vec<(&str, &str)>>) -> bool {
     for set in game.iter() {
-        // println!("{:?}", set);
         for color in set {
-            // println!("{:?}", color);
             match color.1 {
                 "red" => if color.0.parse::<i64>().unwrap() > RED { return false }, 
                 "blue" => if color.0.parse::<i64>().unwrap() > BLUE { return false }, 

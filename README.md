@@ -5,3 +5,4 @@ These are my solutions for 2023s Advent of Code. I took the opportunity to pract
 | Day | Solution | 
 | --- | --- |
 | [Advent of Code Day 1 ](https://adventofcode.com/2023/day/1) | [Day 1 Solution](day-1/) |
+| [Advent of Code Day 2 ](https://adventofcode.com/2023/day/2) | [Day 2 Solution](day-2/) |
